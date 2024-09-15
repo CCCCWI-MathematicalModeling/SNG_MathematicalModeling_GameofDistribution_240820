@@ -1,6 +1,7 @@
 def probabilistic_b_strategy(history_a, history_b):
     import random
-    
+    random.seed(42)
+
     if not history_a:
         return False
 
